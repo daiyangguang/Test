@@ -15,7 +15,7 @@ public class TestDriver {
 	public TestDriver() {
 		System.setProperty("webdriver.chrome.driver", "E:\\chromedriver.exe");
 		driver = new ChromeDriver();
-		driver.get("https://www.dadaabc.com/");
+		driver.get("https://test4-www.dadaabc.us/");
 		driver.manage().window().maximize();
 	}
 	
